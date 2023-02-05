@@ -1,0 +1,61 @@
+.input {
+  display: flex;
+  justify-content: space-between;
+}
+
+.editor {
+  margin-top: 20px;
+}
+
+.header-text {
+  text-align: center;
+  margin-bottom: 0px;
+  display: flex;
+}
+
+.icon-div {
+  display: flex;
+  justify-items: center;
+}
+.icon-json {
+  height: 40px;
+  width: 40px;
+  background-color: lightgrey;
+}
+.header-content {
+  width: 100%;
+  display: flex;
+  min-height: 500px;
+}
+.header-inside-content {
+  width: 50%;
+  overflow: auto;
+}
+.header-title-div {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+.editor-content {
+  border: 1px solid lightgray;
+  padding: 10px;
+}
+
+.editor-text-content {
+  border: none !important;
+}
+
+.submit-btn {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: center;
+  display: flex;
+}
+
+.modal-btn {
+  gap: 8px;
+  justify-content: end;
+  display: flex;
+}
